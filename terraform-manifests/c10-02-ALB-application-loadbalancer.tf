@@ -33,12 +33,18 @@ module "alb" {
       ssl_policy                  = "ELBSecurityPolicy-TLS13-1-2-Res-2021-06"
       certificate_arn             = module.acm.acm_certificate_arn
 
+      /*
         # Fixed Response for Root Context 
        fixed_response = {
         content_type = "text/plain"
         message_body = "Fixed Static message - for Root Context"
         status_code  = "200"
       }# End of Fixed Response
+      */
+
+      forward = {
+        target_group_key = "mytg1"
+      }
 
       # Load Balancer Rules
       rules = {
