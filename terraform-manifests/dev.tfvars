@@ -14,7 +14,7 @@ vpc_single_nat_gateway = true
 
 # EC2 Instance Variables
 instance_type = "t3.micro"
-instance_keypair = "terraform-key"
+instance_keypair = "mian-key"
 private_instance_count = 2
 
 # DNS Name
