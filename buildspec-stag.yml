@@ -11,8 +11,8 @@ env:
 
 phases:
   install:
-    runtime-versions:
-      python: 3.7
+    #runtime-versions:
+      #python: 3.7
     on-failure: ABORT       
     commands:
       - tf_version=$TERRAFORM_VERSION
