@@ -9,6 +9,10 @@ Project Overview: This project demonstrates a production-ready 3-tier web applic
 
 [![Image](https://stacksimplify.com/course-images/terraform-aws-codepipeline-iac-devops-1.png "Terraform on AWS with IAC DevOps and SRE")](https://stacksimplify.com/course-images/terraform-aws-codepipeline-iac-devops-1.png)
 
+<img width="983" height="737" alt="Codepiline1" src="https://github.com/user-attachments/assets/5b49cf09-454e-4475-856f-18f12e49014b" />
+
+<img width="942" height="429" alt="Codepipeline2" src="https://github.com/user-attachments/assets/a0c0a6ec-a398-4a22-aef3-218aa00f4e01" />
+
 ## Business Need
 Modern web applications require:
 
