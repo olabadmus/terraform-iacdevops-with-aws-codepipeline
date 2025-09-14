@@ -60,7 +60,7 @@ Solution: Implemented remote state storage with S3 backend and DynamoDB locking 
 - AWS CodePipeline
 - Github
 
-## Step-01:
+## Step-01: Copy terraform-manifests from Section-15
 - Update `mian-key\terraform-key.pem` with your private key with same name.
 
 
